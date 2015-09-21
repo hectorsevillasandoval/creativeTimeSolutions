@@ -13,19 +13,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bxslider/4.1.1/jquery.bxslider.css" />
   <link rel="stylesheet" href="css/main.css">
   
 </head>
 <body>
   
   <header>
+    <div class="inner">
     <div class="container-fluid">
       <div class="row">
-        <figure class="col-xs-9 logo">
+        <figure class="col-xs-9 col-sm-5 logo">
           <img src="img/logo.png" alt="">
         </figure>
 
-        <div class="menu hidden-xs">
+        <div class="menu hidden-xs col-sm-7">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
@@ -35,13 +37,13 @@
           </ul>
         </div>
 
-        <div class="visible-xs-* col-xs-3 ">
+        <div class="visible-xs col-xs-3 center">
           <button class="btn btn__menuMob"><i class="fa fa-bars"></i></button>
         </div>
 
 
         <!-- MENU MOBILE -->
-        <div class="menu-mobile visible-xs-* col-xs-12">
+        <div class="menu-mobile col-xs-12">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
@@ -53,14 +55,30 @@
 
       </div>
     </div>
+    </div>
   </header>
 
 
 
-  <div class="slider"><img src="img/banner-1.jpg" alt=""></div> 
+  <div class="slider hidden-xs"><img src="img/banner-1.jpg" alt=""></div>
+
+  <div class="full-width home-mob visible-xs">
+      <div class="inner">
+          
+          <h1>Cloud Based Solution</h1>
+          <p class="yellow">From 0.80 to 0.79 per Employee/Month</p>
+          <p class="preamble">
+            Track Employee’s Time and Project Hours On Line from Anywhere, Anytime Using a Web Browser No Contract, No Fees, Cancel Anytime.
+          </p>
+          <a href="#" class="btn btn__contact">learn more</a>
+
+
+      </div>
+    </div>
 
 
   <section class="two">
+    <div class="inner">
     <div class="container-fluid">
         <div class="row">
           
@@ -74,19 +92,19 @@
           </div>
             
 
-          <p class="col-xs-12">We offer a complete range of cloud-based, browser based and windows desktop solutions that interface to most popular payroll and financial software packages.</p>
+          <p class="col-xs-12 col-sm-4">We offer a complete range of cloud-based, browser based and windows desktop solutions that interface to most popular payroll and financial software packages.</p>
 
-          <figure class="col-xs-12 tablet">
+          <figure class="col-xs-12 col-sm-4 tablet">
             <img src="img/tablet.png" alt="">
           </figure>
 
-          <p class="col-xs-12">Our time and labor solutions enables organizations to reduce costs, increase productivity, improve employee satisfaction, and ultimately enhance the level of service they provide.</p>
+          <p class="col-xs-12 col-sm-4">Our time and labor solutions enables organizations to reduce costs, increase productivity, improve employee satisfaction, and ultimately enhance the level of service they provide.</p>
 
         </div>
 
         
 
-
+</div>
 
 
 
@@ -99,7 +117,102 @@
             <a href="#" class="btn btn__contact">contact us</a>
           </div>
         </div>
+
+
+
+    <div class="inner">
+    <div class="two__mainTitle">
+            <h2>our products</h2>
+
+    </div>
+
+    <div class="products row">
+      <div class="product col-xs-12 col-sm-3">
+        <figure>
+          <a href="#">
+          <img src="img/service1.png" height="200" width="219" alt="">
+          </a>
+        </figure>
+        <h4>Cloud Based Solution</h4>
+      </div>
+      <div class="product col-xs-12 col-sm-3">
+        <figure>
+          <a href="#">
+          <img src="img/service2.png" height="200" width="219" alt="">
+          </a>
+        </figure>
+        <h4>Window Desktop</h4>
+      </div>
+      <div class="product col-xs-12 col-sm-3">
+        <figure>
+          <a href="#">
+          <img src="img/service3.png" height="200" width="219" alt="">
+          </a>
+        </figure>
+        <h4>Licensed Cloud Attendance</h4>
+      </div>
+      <div class="product col-xs-12 col-sm-3">
+        <figure>
+          <a href="#">
+          <img src="img/service4.png" height="200" width="219" alt="">
+          </a>
+        </figure>
+        <h4>Data Collection Devices</h4>
+      </div>
+    </div>
+</div>
+
+    <div class="full-width prices-mob visible-xs">
+      <div class="inner">
+          
+          <h4>Cloud System at 0.99/emp/month and  Windows Desktop</h4>
+          <a href="#" class="btn btn__contact">Check Prices</a>
+
+
+      </div>
+    </div>
+
+    
+
+
+
+
+
+
+    <div class="two__mainTitle">
+      <h2>they trust us</h2>
+
+    </div>
+
+    <div class="full-width carousel">
+      <div class="inner">
+        <ul class="bxslider">
+          <li><a href="#"><img src="img/carrusel-1.jpg" height="100" width="149" alt=""></a></li>
+          <li><a href="#"><img src="img/carrusel-2.jpg" alt="" height="100" width="149" alt=""></a></li>
+          <li><a href="#"><img src="img/carrusel-3.jpg" alt="" height="100" width="149" alt=""></a></li>
+          <li><a href="#"><img src="img/carrusel-4.jpg" alt="" height="100" width="149" alt=""></a></li>
+          <li><a href="#"><img src="img/carrusel-5.jpg" alt="" height="100" width="149" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
+
   </section>
+
+  <footer class="gray">
+    <div class="inner">
+      <figure>
+        <img src="img/logo-footer.png" height="48" width="251" alt="">
+      </figure>
+      <ul class="contact-info">
+        <li><a href="#"><i class="fa fa-phone"></i> (888) 809-3522</a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i> sales@creativetimesolutions.com</a></li>
+        <li><a href="#"><i class="fa fa-fax"></i> (562) 283-0491</a></li>
+      </ul>
+      <figure><img src="img/cards.png" height="22" width="244" alt=""></figure>
+      <p class="copy">Copyright &copy; CreativeTime Solutions™</p>
+    </div>
+  </footer>
   
  
   
@@ -107,7 +220,8 @@
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/equalize.js/1.0.2/equalize.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/triton-cdn-files/js/classie.js"></script>
+  <script src="//cdn.jsdelivr.net/bxslider/4.1.1/jquery.bxslider.min.js" type="text/javascript"></script>
   
   
   <script type="text/javascript">
@@ -118,9 +232,43 @@
     $(".btn__menuMob").on("click", function(){
       $(".menu-mobile").toggle("slow");
     });
+
+    $('.bxslider').bxSlider({
+                    mode: 'horizontal',
+                    auto:true,
+                    autoHover:true,
+                    pager: false,
+                    adaptiveHeight:true,
+                    startSlide:0,
+                    minSlides:2,
+                    maxSlides:5,
+                    slideWidth: 200,
+                    slideMargin: 10,
+                    pause: 6000,
+                    useCSS:false
+                });
  
   })($);
   </script>
+
+  <script>
+    function init() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 300,
+            header = document.querySelector("header");
+        if (distanceY > shrinkOn) {
+            classie.add(header,"smaller");
+        } else {
+            if (classie.has(header,"smaller")) {
+                classie.remove(header,"smaller");
+            }
+        }
+    });
+}
+window.onload = init();
+    
+</script>
   
 </body>
 </html>

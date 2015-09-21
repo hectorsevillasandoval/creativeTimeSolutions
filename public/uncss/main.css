@@ -25,6 +25,7 @@ body {
 }
 
 figure,
+footer,
 header,
 section {
   display: block;
@@ -37,6 +38,11 @@ a {
 a:active,
 a:hover {
   outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 img {
@@ -85,6 +91,7 @@ body {
 }
 
 figure,
+footer,
 header,
 section {
   display: block;
@@ -97,6 +104,11 @@ a {
 a:active,
 a:hover {
   outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 img {
@@ -170,9 +182,27 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-family: "bebasBook";
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  margin-top: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
 .blue {
   background-color: #315884;
   padding: 2rem 1rem;
+}
+
+.gray {
+  background-color: #444;
+}
+
+.center {
+  text-align: center;
 }
 
 .btn {
@@ -194,6 +224,11 @@ h2 {
   background-color: transparent;
   font-size: 1.8rem;
   padding: 0.5rem;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 header {
@@ -204,6 +239,50 @@ header {
   top: 0;
   width: 100%;
   z-index: 999;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+header .menu {
+  font-family: "bebasBook";
+  text-align: right;
+  padding-top: 0.5rem;
+}
+
+header .menu li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.8rem;
+}
+
+header .menu li:last-child {
+  margin-right: 0;
+}
+
+header .menu a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+header .menu a:hover {
+  color: #ffb400;
+}
+
+header .logo img {
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 header .menu-mobile {
@@ -215,8 +294,8 @@ header .menu-mobile ul {
 }
 
 header .menu-mobile ul li {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   text-align: center;
   border-bottom: 1px solid #fff;
 }
@@ -229,7 +308,26 @@ header .menu-mobile ul a {
   color: #fff;
   text-transform: uppercase;
   display: block;
-  font-size: 24px;
+  font-size: 20px;
+  font-family: "bebasBook";
+}
+
+.home-mob {
+  background-image: url("../img/banner-home-mobile.jpg");
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: #fff;
+}
+
+.home-mob .yellow {
+  color: #ffb400;
+  font-size: 1.25rem;
+}
+
+.home-mob .inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 section {
@@ -261,4 +359,63 @@ section .tablet {
 section .full-width .preamble {
   font-size: 24px;
   color: #fff;
+}
+
+section .prices-mob {
+  background-image: url("../img/prices-mobile.jpg");
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-attachment: fixed;
+}
+
+section .prices-mob .inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+section .prices-mob h4 {
+  font-family: "bebasBook";
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+section .carousel .bxslider {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: #f0f0f0;
+}
+
+footer .contact-info {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .contact-info a {
+  color: #f0f0f0;
+}
+
+footer .contact-info a:hover {
+  color: #ffb400;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  section .tablet {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .inner {
+    max-width: 58.75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
