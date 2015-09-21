@@ -184,7 +184,7 @@ h2 {
 
 h1 {
   font-family: "bebasBook";
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding-top: 2rem;
   margin-top: 0;
   text-align: center;
@@ -330,6 +330,38 @@ header .menu-mobile ul a {
   padding-right: 1rem;
 }
 
+.slider .slide .inner {
+  position: relative;
+}
+
+.slider .slide .inner .container-fluid {
+  position: absolute;
+  left: 0;
+}
+
+.slider .slide .text {
+  text-align: left;
+}
+
+.slider .slide .text h1 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.slider .slide .text h6 {
+  color: #ffb400;
+}
+
+.slider .slide .text .content {
+  color: #fff;
+}
+
+.slider .similarH1 {
+  text-transform: uppercase;
+  font-family: "bebasBook";
+  color: #fff;
+}
+
 section {
   text-align: center;
 }
@@ -410,6 +442,30 @@ footer .contact-info a:hover {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .slider {
+    margin-bottom: 4rem;
+  }
+
+  .slider .container-fluid {
+    bottom: -2.5rem;
+  }
+
+  .slider .text h1 {
+    font-size: 2rem;
+  }
+
+  .slider .text h6 {
+    font-size: 1rem;
+  }
+
+  .slider .text .content {
+    font-size: 0.8rem;
+  }
+
+  .slider .similarH1 {
+    font-size: 34px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -417,5 +473,25 @@ footer .contact-info a:hover {
     max-width: 58.75rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .slider {
+    margin-bottom: 2.1rem;
+  }
+
+  .slider .container-fluid {
+    bottom: -1.4rem;
+  }
+
+  .slider .text h1 {
+    font-size: 3rem;
+  }
+
+  .slider .text h6 {
+    font-size: 26px;
+  }
+
+  .slider .similarH1 {
+    font-size: 48px;
   }
 }

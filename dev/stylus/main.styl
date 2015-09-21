@@ -1,6 +1,5 @@
 @import 'fonts.styl'
 @import 'normalize.styl'
-@import 'buble.styl'
 @import 'nib'
 
 
@@ -54,7 +53,7 @@ h2
 	text-align: center
 h1
 	font-family "bebasBook"
-	font-size: rem(40)
+	font-size: rem(48)
 	padding-top 2rem
 	margin-top 0
 	text-align center
@@ -153,6 +152,26 @@ header
 	.inner
 		padding-left: 1rem
 		padding-right: 1rem
+.slider
+	.slide
+		.inner
+			position relative
+			.container-fluid
+				position absolute
+				left 0
+		.text
+			text-align: left
+			h1
+				text-align: left
+				margin-bottom: 0
+			h6
+				color yellow
+			.content
+				color white
+	.similarH1
+		text-transform: uppercase
+		font-family: "bebasBook"
+		color white
 
 section
 	text-align: center
@@ -231,9 +250,33 @@ footer
 		.tablet
 			padding-top: 0
 			padding-bottom: 0
+	.slider
+		margin-bottom: 4rem
+		.container-fluid
+			bottom -2.5rem
+		.text
+			h1
+				font-size: 2rem
+			h6
+				font-size: 1rem
+			.content
+				font-size: .8rem
+		.similarH1
+			font-size: 34px
 
 @media(min-width:992px)
 	.inner
 		max-width rem(940)
 		margin-left: auto
 		margin-right auto
+	.slider
+		margin-bottom: 2.1rem
+		.container-fluid
+			bottom -1.4rem
+		.text
+			h1
+				font-size: rem(48)
+			h6
+				font-size: 26px
+		.similarH1
+			font-size: 48px

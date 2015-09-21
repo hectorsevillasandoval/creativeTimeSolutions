@@ -15,6 +15,7 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bxslider/4.1.1/jquery.bxslider.css" />
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/jquery.animateSlider.css">
   
 </head>
 <body>
@@ -60,7 +61,31 @@
 
 
 
-  <div class="slider hidden-xs"><img src="img/banner-1.jpg" alt=""></div>
+  <div class="slider hidden-xs">
+    <div class="slide">
+      <img src="img/banner-1.jpg" alt="">
+        <div class="inner">
+              <div class="container-fluid">
+                <figure class="col-sm-6">
+                  
+                    <img src="img/girl.png" height="429" width="576" alt="" >
+                  
+                </figure>
+
+                <div class="text col-sm-6">
+                  <h1>Cloud Based Solution</h1>
+                  <h6>From 0.80 to 0.79 per Employee/Month</h6>
+                  <p class="content">
+                    Track Employee’s Time and Project Hours On Line from Anywhere, Anytime Using a Web Browser No Contract, No Fees, Cancel Anytime.
+                  </p>
+                  <a href="#" class="btn btn__contact">Learn More</a>
+                </div>
+              
+              </div>
+        </div>
+    </div>
+    
+  </div>
 
   <div class="full-width home-mob visible-xs">
       <div class="inner">
@@ -172,6 +197,32 @@
       </div>
     </div>
 
+     <div class="slider prices hidden-xs">
+    <div class="slide">
+      <img src="img/banner-prices.jpg" alt="">
+        <div class="inner">
+              <div class="container-fluid">
+                  <div class="text col-sm-6">
+                  <p class="similarH1">Cloud System at 0.99/emp/month and Windows Desktop</p>
+                  <a href="#" class="btn btn__contact">Check Prices</a>
+                </div>
+
+
+
+                <figure class="col-sm-6">
+                  
+                    <img src="img/prices.png" height="335" width="459" alt="">
+                  
+                </figure>
+
+                
+              
+              </div>
+        </div>
+    </div>
+    
+  </div>
+
     
 
 
@@ -219,9 +270,9 @@
   <!-- <script type="text/javascript" src="js/minificado/all.js"></script> -->
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/triton-cdn-files/js/classie.js"></script>
   <script src="//cdn.jsdelivr.net/bxslider/4.1.1/jquery.bxslider.min.js" type="text/javascript"></script>
+
   
   
   <script type="text/javascript">
@@ -247,6 +298,8 @@
                     pause: 6000,
                     useCSS:false
                 });
+    
+    
  
   })($);
   </script>
