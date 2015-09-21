@@ -5,16 +5,10 @@
   src: url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'), url("../fonts/icomoon.woff") format('woff'), url("../fonts/icomoon.ttf") format('truetype'), url("../fonts/icomoon.svg#icomoon") format('svg');
 }
 @font-face {
-  font-family: DINBOLD;
+  font-family: bebasBook;
   font-weight: normal;
-  src: url("../fonts/dinbold-webfont.eot");
-  src: url("../fonts/dinbold-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/dinbold-webfont.woff") format('woff'), url("../fonts/dinbold-webfont.ttf") format('truetype'), url("../fonts/dinbold-webfont.svg#dinbold-webfont") format('svg');
-}
-@font-face {
-  font-family: DINREGULAR;
-  font-weight: normal;
-  src: url("../fonts/pt_din_condensed_cyrillic-webfont.eot");
-  src: url("../fonts/pt_din_condensed_cyrillic-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/pt_din_condensed_cyrillic-webfont.woff") format('woff'), url("../fonts/pt_din_condensed_cyrillic-webfont.ttf") format('truetype'), url("../fonts/pt_din_condensed_cyrillic-webfont.svg#pt_din_condensed_cyrillic-webfont") format('svg');
+  src: url("../fonts/bebasneue_book-webfont.eot");
+  src: url("../fonts/bebasneue_book-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/bebasneue_book-webfont.woff") format('woff'), url("../fonts/bebasneue_book-webfont.ttf") format('truetype'), url("../fonts/bebasneue_book-webfont.svg#bebasneue_book-webfont") format('svg');
 }
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
@@ -494,14 +488,14 @@ ul {
   list-style: none;
 }
 h2 {
-  font-family: "Oswald";
+  font-family: "bebasBook";
   font-size: 2.25rem;
   color: amarillo;
   text-transform: uppercase;
   text-align: center;
 }
 h1 {
-  font-family: "Oswald";
+  font-family: "bebasBook";
   font-size: 2.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -532,11 +526,16 @@ h1 {
 .btn.btn__menuMob {
   background-color: transparent;
   font-size: 1.8rem;
+  padding: 0.5rem;
 }
 header {
   background-color: rgba(0,0,0,0.6);
-  padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-top: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 header .menu-mobile {
   display: none;

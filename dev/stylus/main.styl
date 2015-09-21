@@ -47,13 +47,13 @@ figure
 ul
 	list-style none
 h2
-	font-family "Oswald"
+	font-family "bebasBook"
 	font-size: rem(36)
 	color amarillo
 	text-transform: uppercase
 	text-align: center
 h1
-	font-family "Oswald"
+	font-family "bebasBook"
 	font-size: rem(40)
 	padding-top 2rem
 	padding-bottom 2rem
@@ -81,11 +81,16 @@ h1
 	&.btn__menuMob
 		background-color transparent
 		font-size 1.8rem
+		padding .5rem
 
 header
 	background-color rgba(0,0,0,.6)
-	padding-top 1rem
 	padding-bottom 1rem
+	padding-top 1rem
+	position fixed
+	top 0
+	width 100%
+	z-index 999
 	.menu-mobile
 		display none
 		ul
