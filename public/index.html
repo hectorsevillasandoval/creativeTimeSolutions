@@ -6,211 +6,102 @@
 <head lang="Es">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Bienvenidos a Cine Claro Honduras</title>
+  <title>Welcome to Creative Time Solutions</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-          <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="uncss/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
   
 </head>
 <body>
   
-  
-  
-  <!-- Header Inicio -->
-  <div class=" borde-superior">
-    
-  </div>
   <header>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
-          <figure>
-            <a href="/">
-            <img src="img/cineclaro-logo.png" alt=""></figure>
-          </a>
+        <figure class="col-xs-9 logo">
+          <img src="img/logo.png" alt="">
+        </figure>
+
+        <div class="menu hidden-xs">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        
-        <div class="col-md-4 col-md-offset-1">
-          <div class="formulario">
-            <form action="">
-              <input type="text">
-              <button>Buscar</button>
-            </form>
-          </div>
+
+        <div class="visible-xs-* col-xs-3 ">
+          <button class="btn btn__menuMob"><i class="fa fa-bars"></i></button>
         </div>
-        
-        <div class="col-md-5">
-          <nav class="menu-principal">
-            <ul>
-              <li><a href="cartelera.html">Cartelera</a></li>
-              <li><a href="cines.html">Cines</a></li>
-              <li><a href="proximos-estrenos.html">Proximos Estrenos</a></li>
-              <li><a href="#">Claro Video</a></li>
-              <li><a href="premios.html">Premios</a></li>
-              <li class="btn-movie"><a href="#"><img src="img/movie-button.png" alt=""></a></li>
-            </ul>
-          </nav>
+
+
+        <!-- MENU MOBILE -->
+        <div class="menu-mobile visible-xs-* col-xs-12">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
+
       </div>
     </div>
   </header>
-  <!-- Header fin -->
-  
-  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+
+
+  <div class="slider"><img src="img/banner-1.jpg" alt=""></div> 
+
+
+  <section class="two">
+    <div class="container-fluid">
+        <div class="row">
+          
+            <div class="two__mainTitle">
+            <h2>Providing Time & Attendance Solutions</h2>
+            <span class="preamble">to all company of all sizes</span>  
+
+            <div class="intro">
+              Our suite of workforce time and labor system solutions have been designed to meet the needs of any company in any industry. Whether you're looking for a basic time and attendance system or an enterprise-class workforce management system, we can provide a solution tailored to your company's requirements.
+            </div>
+          </div>
+            
+
+          <p class="col-xs-12">We offer a complete range of cloud-based, browser based and windows desktop solutions that interface to most popular payroll and financial software packages.</p>
+
+          <figure class="col-xs-12 tablet">
+            <img src="img/tablet.png" alt="">
+          </figure>
+
+          <p class="col-xs-12">Our time and labor solutions enables organizations to reduce costs, increase productivity, improve employee satisfaction, and ultimately enhance the level of service they provide.</p>
+
         </div>
-        <div class="modal-body">
-          <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" width="400" height="300" frameborder="0" allowfullscreen=""></iframe>
+
+        
+
+
+
+
+
+    </div>
+
+    <div class="full-width blue">
+          <div class="inner">
+            <p class="preamble">For these reasons and more, you can count on CreativeTime Solutions to be highly reliable, scalable, and easy to use. Please contact us at your convenience.</p>
+
+            <a href="#" class="btn btn__contact">contact us</a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Seccion Principal INICIO -->
-  <section class="principal home">
-    <div class="container">
-      <div class="row ">
-        
-        <div class="estrenos col-md-1">
-          <h3>estrenos de la semana</h3>
-        </div>
-        <div class="peliculas col-md-6">
-          
-          <!--  PELICULA 1 INICIO -->
-          <article class="pelicula row">
-            <figure class="left col-md-4">
-              
-              <img src="img/movie-1.png" height="310" width="207" alt="">
-              
-              <div class="overlay"><a href="#" class="trailer">
-                Ver Trailer
-              </a></div>
-            </figure>
-            <div class="right col-md-8">
-              <h2>Sinopsis</h2>
-              <p class="content">
-                La pelicula comica sigue las aventuras de Susan Cooper interpretada por Melissa McCarthy, una analista de la CIA que decide convertirse en agente secreta de la compañia para resolver varios casos de la agencia.
-              </p>
-              <a href="#" class="button-2 trailer">ver trailer</a>
-            </div>
-          </article>
-          <!--  PELICULA 1 FIN -->
-          <!--  PELICULA 2 INICIO -->
-          <article class="pelicula row">
-            <figure class="left col-md-4">
-              
-              <img src="img/movie-2.png" height="310" width="207" alt="">
-              
-              <div class="overlay"><a href="#" class="trailer">
-                Ver Trailer
-              </a></div>
-            </figure>
-            <div class="right col-md-8">
-              <h2>Sinopsis</h2>
-              <p class="content">
-                La falla de San Andrés termina por ceder ante las temibles fuerzas telúricas y acaba desencadenando un terremoto de magnitud 9 en California. El piloto de un helicóptero de búsqueda y rescate y su ex mujer viajan juntos desde la ciudad de Los Ángeles hasta ...
-              </p>
-              <a href="#" class="button-2 trailer">ver trailer</a>
-            </div>
-          </article>
-          <!--  PELICULA 2 FIN -->
-
-
-
-        </div>
-        <div class="proximamente col-md-5">
-          
-          <h4>PROXIMAMENTE</h4>
-
-
-          <ul class="prox-movies">
-            <li><a href="#">
-              <img src="img/btn-next-1.png" alt="">
-            </a></li>
-            <li><a href="">
-              
-              <img src="img/btn-next-2.png" alt="">
-            </a></li>
-            <li><a href="">
-              <img src="img/btn-next-3.png" alt="">
-
-            </a></li>
-          </ul>
-
-
-        </div>
-      </div>
-    </div>
   </section>
-  <!-- Seccion Principal FIN -->
-  <!-- footer inicio -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-md-2 footer-menu">
-          <ul>
-            <li><a href="">Contacto</a></li>
-            <li><a href="">Ayuda</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 col-md-offset-6">
-          <ul class="social">
-            <li>Siguenos</li>
-            <li class="facebook"><a href="#">
-              <img src="img/fb.png" height="41" width="41" alt="">
-            </a></li>
-            <li class="twitter"><a href="#">
-              <img src="img/tw.png" height="41" width="41" alt="">
-            </a></li>
-            <li class="ytube"><a href="#">
-              <img src="img/yt.png" height="41" width="41" alt="">
-            </a></li>
-            <li class="gplus"><a href="#">
-              <img src="img/g+.png" height="41" width="41" alt="">
-            </a></li>
-          </ul>
-        </div>
-      </div>
-
-
-          <div class="tickets">
-
-                         
-                          <ul id="navs" data-open="close" data-close="open">
-    <li><a href="#">
-      <img src="img/menu-mov-1.png" height="81" width="82" alt="">
-    </a></li>
-    <li><a href="#">
-<img src="img/menu-mov-2.png" height="81" width="82" alt="">
-    </a></li>
-    <li><a href="#">
-      <img src="img/menu-mov-3.png" height="81" width="82" alt="">
-    </a></li>
-
-    <li><a href="#">
-      <img src="img/menu-mov-3.png" height="81" width="82" alt="">
-    </a></li>
-
-
-
-</ul>
-                      </div>
-      
-    </div>
-    
-  </footer>
-  <!-- footer fin -->
   
+ 
   
   <!-- <script type="text/javascript" src="js/minificado/all.js"></script> -->
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
@@ -223,58 +114,12 @@
   
   
   (function(){
-  var ul=$("#navs"),li=$("#navs li"),i=li.length,n=i-1,r=180;
-  ul.click(function(){
-  $(this).toggleClass('active');
-  if($(this).hasClass('active')){
-  
-  for(var a=0;a<i;a++){
-  li.eq(a).css({
-  'transition-delay':""+(50*a)+"ms",
-  '-webkit-transition-delay':""+(50*a)+"ms",
-  'left':(r*Math.cos(110/n*a*(Math.PI/260))),
-  'top':(-r*Math.sin(110/n*a*(Math.PI/260))),
-  'opacity':1
-  });
-  }
-  }else{
-  li.removeAttr('style');
-  }
-  });
 
-  
-
-  /*var li2 = $(".prox-movies li"), i2 = li2.length;
-  for(var a=0;a<i2;a++){
-  $(".prox-movies li").eq(a).css({
-  'transition-delay':""+(50*a)+"ms",
-  '-webkit-transition-delay':""+(50*a)+"ms",
-  'left':(180*Math.cos(160/n*a*(Math.PI/360))),
-  'top':(-180*Math.sin(160/n*a*(Math.PI/360))),
-  'opacity':1
-  });
-  }*/
-
-
-  $('.principal > div > .row').equalize('outerHeight');
-
-
-
+    $(".btn__menuMob").on("click", function(){
+      $(".menu-mobile").toggle("slow");
+    });
+ 
   })($);
-  </script>
-  <script>
-  $('.trailer').click(function () {
-  var src = 'http://www.youtube.com/v/FSi2fJALDyQ&amp;autoplay=1';
-  $('#myModal').modal('show');
-  $('#myModal iframe').attr('src', src);
-  });
-  $('#myModal button').click(function () {
-  $('#myModal iframe').removeAttr('src');
-  });
-  $('#myModal').draggable({
-  handle: ".modal-header"
-  });
-  
   </script>
   
 </body>
